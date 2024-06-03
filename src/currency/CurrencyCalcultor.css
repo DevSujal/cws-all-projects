@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mycont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    background-color: wheat;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#input{
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+    padding: auto;
+
+}
+.select{
+    text-align: center;
+    margin: 0 0 0 10px  ;
+    width: 60%;
+    border: none;
+    /* background-color: wheat; */
+    padding: 2px;
+    border-radius: 6px;
+}
